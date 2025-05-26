@@ -22,15 +22,18 @@
 - Dans qBittorrent, faites clic droit sur le torrent > `Propriétés` > onglet `Trackers`.
 - Sélectionnez le tracker YggTorrent et supprimez-le.
 - Répétez pour chaque torrent YggTorrent pour protéger votre ratio.
+![alt text](image.png)
+
 
 ## 5. Installer et utiliser Ratio Master
 
 - Téléchargez Ratio Master sur GitHub : [Ratio Master GitHub](https://github.com/NikolayIT/RatioMaster.NET)
 - Extrayez et lancez-le.
-- Dans votre client torrent, commencez le téléchargement du torrent.
-- Dans Ratio Master, sélectionnez le torrent et votre client.
-- Activez `Memory Reader` dans `Advanced`.
-- Cochez `Upload Speed Randomization` (150-180 KB/s toutes les 30 min).
-- Réglez la vitesse d’upload à 1 MB/s, puis cliquez sur `Start`.
-- Surveillez votre ratio, ne dépassez pas 2.
+- Dans Ratio Master, cliquez sur `Browse` dans la section `Torrent File` et sélectionnez un torrent.
+- Dans `Speed Options`, définissez la vitesse d'upload à 1000 kB/s.
+- Cochez `Random Values` et définissez les valeurs min à 150 et max à 180.
+- Définissez la vitesse de téléchargement à 0 et décochez `Random Values`.
+- Dans `Options`, définissez `Finished` à 100%.
+- Cliquez sur `Start`.
+- Surveillez votre ratio et ne dépassez pas 2.
 - Ne laissez pas Ratio Master uploader trop longtemps pour éviter la détection.
