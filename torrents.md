@@ -1,5 +1,21 @@
 # Torrents
 
+### Sites Torrent
+
+*Date de mise à jour : 10 avril 2026*
+
+```
+Torrent9
+Cpasbien
+C411
+OxTorrent
+La Cale
+Torr9
+The Pirate Bay
+1337x
+YTS
+```
+
 ## 1. Installation de qBittorrent
 
 - Téléchargez qBittorrent sur le site officiel : [qBittorrent](https://www.qbittorrent.org/)
@@ -17,11 +33,11 @@
 - Appliquez la règle à tous les profils (Domaine, Privé, Public).
 - Nommez la règle (ex. "Bloquer qBittorrent") et validez.
 
-## 4. Supprimer le tracker YggTorrent d’un torrent
+## 4. Supprimer le tracker d’un torrent
 
 - Dans qBittorrent, faites clic droit sur le torrent > `Propriétés` > onglet `Trackers`.
-- Sélectionnez le tracker YggTorrent et supprimez-le.
-- Répétez pour chaque torrent YggTorrent pour protéger votre ratio.
+- Sélectionnez le tracker et supprimez-le.
+- Répétez pour chaque torrent pour protéger votre ratio.
 ![alt text](image.png)
 
 
