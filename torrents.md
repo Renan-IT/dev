@@ -35,7 +35,7 @@ YTS
 
 ## 4. Supprimer le tracker d’un torrent
 
-- Dans qBittorrent, faites clic droit sur le torrent > `Propriétés` > onglet `Trackers`.
+- Dans qBittorrent, faites clic gauche sur le torrent > (en bas) onglet `Trackers`.
 - Sélectionnez le tracker et supprimez-le.
 - Répétez pour chaque torrent pour protéger votre ratio.
 ![alt text](image.png)
