@@ -27,14 +27,14 @@ YTS
 - Ouvrez qBittorrent > `Outils` > `Options` > `Connexion`.
 - Choisissez un port manuel entre 49160 et 65534.
 
-## 3. Bloquer le port dans le pare-feu Windows
+## 3. Bloquer le port dans le pare-feu Windows pour se proteger de l'ARCOM/HADOPI
 
 - Ouvrez `Panneau de configuration` > `Système et sécurité` > `Pare-feu Windows Defender` > `Paramètres avancés`.
 - Créez une nouvelle règle pour bloquer le port TCP configuré.
 - Appliquez la règle à tous les profils (Domaine, Privé, Public).
 - Nommez la règle (ex. "Bloquer qBittorrent") et validez.
 
-## 4. Supprimer le tracker d’un torrent
+## 4. Supprimer le tracker d’un torrent pour contourner les systèmes de ratio
 
 - Dans qBittorrent, faites clic gauche sur le torrent > (en bas) onglet `Trackers`.
 - Sélectionnez le tracker et supprimez-le.
@@ -42,7 +42,8 @@ YTS
 ![alt text](image.png)
 
 
-## 5. Installer et utiliser Ratio Master
+## Annexe
+### Installer et utiliser Ratio Master
 
 - Téléchargez Ratio Master sur GitHub : [Ratio Master GitHub](https://github.com/NikolayIT/RatioMaster.NET)
 - Extrayez et lancez-le.
