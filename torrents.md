@@ -5,6 +5,7 @@
 *Date de mise à jour : 10 avril 2026*
 
 ```
+Tr4ker
 Torrent9
 Cpasbien
 C411
