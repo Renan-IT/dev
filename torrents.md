@@ -2,7 +2,7 @@
 
 ### Sites Torrent
 
-*Date de mise à jour : 10 avril 2026*
+*Date de mise à jour : 3 aout 2026*
 
 ```
 Tr4ker
