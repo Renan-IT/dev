@@ -27,14 +27,23 @@ YTS
 - Ouvrez qBittorrent > `Outils` > `Options` > `Connexion`.
 - Choisissez un port manuel entre 49160 et 65534.
 
-## 3. Bloquer le port dans le pare-feu Windows pour se proteger de l'ARCOM/HADOPI
+## 3. Bloquer le port dans le pare-feu Windows
+
+>[!NOTE]
+> Pour se proteger de l'ARCOM/HADOPI
 
 - Ouvrez `Panneau de configuration` > `Système et sécurité` > `Pare-feu Windows Defender` > `Paramètres avancés`.
 - Créez une nouvelle règle pour bloquer le port TCP configuré.
 - Appliquez la règle à tous les profils (Domaine, Privé, Public).
 - Nommez la règle (ex. "Bloquer qBittorrent") et validez.
 
-## 4. Supprimer le tracker d’un torrent pour contourner les systèmes de ratio
+## 4. Supprimer le tracker d’un torrent
+
+>[!NOTE]
+> Pour contourner les systèmes de ratio
+
+>[!IMPORTANT] 
+>À faire dès que le téléchargement débute
 
 - Dans qBittorrent, faites clic gauche sur le torrent > (en bas) onglet `Trackers`.
 - Sélectionnez le tracker et supprimez-le.
