@@ -25,7 +25,7 @@ YTS
 ## 2. Configuration du port
 
 - Ouvrez qBittorrent > `Outils` > `Options` > `Connexion`.
-- Choisissez un port manuel entre 49160 et 65534.
+- Choisissez un port de connexions entrantes manuel entre 49160 et 65534.
 
 ## 3. Bloquer le port dans le pare-feu Windows
 
