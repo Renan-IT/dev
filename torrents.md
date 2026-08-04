@@ -33,7 +33,7 @@ YTS
 > Pour se proteger de l'ARCOM/HADOPI
 
 - Ouvrez `Panneau de configuration` > `Système et sécurité` > `Pare-feu Windows Defender` > `Paramètres avancés`.
-- Créez une nouvelle règle pour bloquer le port TCP configuré.
+- Créez une nouvelle règle de trafic sortant pour bloquer le port TCP configuré.
 - Appliquez la règle à tous les profils (Domaine, Privé, Public).
 - Nommez la règle (ex. "Bloquer qBittorrent") et validez.
 
